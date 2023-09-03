@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+}
+.section-title {
+  color: #121212;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  margin-top: 130px;
+}
+.section-title-desc {
+  text-align: center;
+  width: 691px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.btn {
+  padding: 16px 12px;
+  border-radius: 5px;
+  background: #ff5959;
+  border: none;
+  color: #ffffff;
+}
+.header {
+  background-image: url(./images/donation13R.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-color: #706e6e;
+  /* background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0) 100%); */
+  background-blend-mode: overlay;
+}
+.header-content {
+  text-align: center;
+  padding: 174px 307px;
+}
+.header-content h1 {
+  color: #ffffff;
+}
+.header-content p {
+  color: #ffffff;
+}
+.header-content p {
+  margin: 20px 0 30px 0;
+}
+.amount-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  gap: 22px;
+}
+.amount {
+  /* width: 135px;
+  height: 123px; */
+  border-radius: 5px;
+  background: #fafafa;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding: 44px 24px;
+  /* margin-right: 22px; */
+}
+.amount-highlight {
+  border: 2px solid #ff5959;
+  color: #ff5959;
+  background: #fee;
+}
+.Other-cost,
+p,
+button {
+  text-align: center;
+  color: #b3b3b3;
+}
+hr {
+  stroke-width: 1px;
+  stroke: #dadada;
+  width: 814px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
