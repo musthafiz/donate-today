@@ -1,6 +1,6 @@
 * {
   margin: 0px;
-  /* font-family: "Inter", sans-serif; */
+  font-family: "Inter", sans-serif;
   font-family: "Poppins", sans-serif;
   color: #707070;
 }
@@ -121,4 +121,35 @@ hr {
   background: #fff4d6;
   padding: 64px 22px 54px;
   width: 360px;
+}
+/* live-Project-container */
+
+.live-Project-container {
+  display: flex;
+  gap: 90px;
+  margin: 130px 311px;
+  align-items: center;
+}
+
+.live-project-title {
+  color: #121212;
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+.project-desc-1 {
+  font-size: 18px;
+  text-align: left;
+  margin: 20px 0;
+}
+.project-desc-2 {
+  font-size: 18px;
+  text-align: left;
+  margin: 20px 0 30px;
+}
+.project {
+  width: 50%;
+}
+.project img {
+  width: 100%;
 }
