@@ -84,3 +84,41 @@ hr {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+.Donate-Plan-basic-needs {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.Donate-Plan-basic-needs img {
+  width: 53px;
+  height: 53px;
+}
+.basic-needs-title {
+  color: #121212;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 25px 0 16px 0;
+  text-align: left;
+}
+
+.basic-needs-desc {
+  text-align: left;
+}
+.basic-needs-1 {
+  padding: 64px 22px 54px;
+  border-radius: 5px;
+  background: #4f9da61a;
+  width: 360px;
+}
+.basic-needs-2 {
+  padding: 64px 22px 54px;
+  border-radius: 5px;
+  background: rgba(255, 89, 89, 0.1);
+  width: 360px;
+}
+.basic-needs-3 {
+  border-radius: 5px;
+  background: #fff4d6;
+  padding: 64px 22px 54px;
+  width: 360px;
+}
