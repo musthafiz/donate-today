@@ -70,9 +70,7 @@
   color: #ff5959;
   background: #fee;
 }
-.Other-cost,
-p,
-button {
+.Other-cost,p,button {
   text-align: center;
   color: #b3b3b3;
 }
@@ -162,11 +160,11 @@ hr {
   align-items: center;
   justify-content: center;
 }
-/* label {
+label {
   position: relative;
-} */
+}
 .email-subscribe input {
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 7px ;
   background: #d9d9d9;
   padding: 14px 218px 14px 17px;
   color: #aa9f9f;
@@ -175,22 +173,24 @@ hr {
   border: none;
 }
 .email-subscribe button {
-  padding: 14px 42px;
+  padding: 14px 25px;
   border: none;
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 7px 7px 0px;
   background: #ff5959;
   color: #fff;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  width: 286px;
-  /* position: absolute; */
+
+  position: absolute;
+  top: 0;
+  right: 0
+  ;
 }
 footer {
   height: 177px;
   background: var(--default-black, #0b0d17);
   text-align: center;
-  /* padding: 43px 0; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -206,3 +206,4 @@ footer {
   font-size: 14px;
   font-weight: 400;
 }
+
