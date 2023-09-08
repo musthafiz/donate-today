@@ -24,6 +24,7 @@
   background: #ff5959;
   border: none;
   color: #ffffff;
+  cursor: pointer;
 }
 .header {
   background-image: url(./images/donation13R.jpg);
@@ -184,8 +185,9 @@ label {
 
   position: absolute;
   top: 0;
-  right: 0
-  ;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
 }
 footer {
   height: 177px;
